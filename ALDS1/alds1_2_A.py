@@ -1,5 +1,7 @@
 '''
 バブルソート
+　O(N^2)のアルゴリズム
+　安定なソート
 '''
 
 n = int(input())
@@ -16,6 +18,6 @@ while flag:
             a[j-1] = tmp
             flag = 1
             cnt += 1
-            print(a)
+            # print(a)
 print(' '.join(map(str,a)))
 print(cnt)
